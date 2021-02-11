@@ -1,14 +1,13 @@
-# DeepCAC
+# Deep Heart Segmentation
 
-Fully automatic coronary calcium risk assessment using Deep Learning.
+Fully automatic deep learning system to segment the heart in CT scans.
 
 ## Repository Structure
 
-The DeepCAC repository is structured as follows:
+The DeepHeartSeg repository is structured as follows:
 
-* All the source code to run the deep-learning-based fully automatic coronary calcium risk assessment pipeline is found under the `src` folder.
-* Four sample subjects' CT data and the associated manual segmentation masks (heart + CAC), as well as all the models weights necessary to run the pipeline, are stored under the `data` folder.
-* AI and manual results for the NLST cohort in the paper as well as the statistical analysis are located in the `stats` folder.
+* All the source code to run the deep-learning-based pipeline is found under the `src` folder.
+* Four sample subjects' CT data and the associated manual segmentation masks, as well as all the models weights necessary to run the pipeline, are stored under the `data` folder.
 
 Additional details on the content of the subdirectories and their structure can be found in the markdown files stored in the former.
 
@@ -40,7 +39,9 @@ At this point, `(venv)` should be displayed at the start of each bash line. Furt
 pip install -r requirements.txt
 ```
 
-At this stage, everything should be ready for the data to be processed by the DeepCAC pipeline. Additional details can be found in the markdown file under `src`.
+At this stage, everything should be ready for the data to be processed by 
+the DeepHeartSeg pipeline. Additional details can be found in the markdown file 
+under `src`.
 
 The virtual environment can be deactivated by running:
 

@@ -57,7 +57,7 @@ processing:
   export_png: true
   
   # number of CPU cores to be used
-  num_cores: 1
+  num_cores: 16
   
   # whether or not to use the masks inferred from the pipeline (step 1) for the heart segmentation
   # if set to "false", uses the training masks (if provided)
@@ -86,7 +86,7 @@ processing:
 
   # IDs of a single or multiple GPUs which should be used for the inference
   # (ignored if "use_gpu" is set to false)
-  gpu_ids: [0]
+  gpu_ids: [1]
   
 
 ## ----------------------------------------
