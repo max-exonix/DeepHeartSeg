@@ -3,6 +3,7 @@ matplotlib==2.2.5
 numpy==1.16.6
 scipy==1.2.3
 SimpleITK==1.2.4
+numexpr==2.7.3
 tables==3.5.2
 tensorflow-gpu==1.14.0
 pyaml
