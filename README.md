@@ -22,7 +22,7 @@ This guide walks you through setting up the DeepHeartSeg environment using Minic
 
 ### Steps
 
-#### 1. Create a Conda Environment
+### 1. Create a Conda Environment
 Open a terminal and create a new conda environment named `deepheartseg` with Python 2.7:
 
 ```
