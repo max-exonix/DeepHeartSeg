@@ -1,0 +1,10 @@
+name: deepheartseg
+channels:
+  - defaults
+dependencies:
+  - python=2.7
+  - pip
+  - tensorflow       # Replace with a specific version if needed, e.g., tensorflow==1.14.0
+  # Add other conda packages if required
+  - pip:
+    - -r requirements.txt

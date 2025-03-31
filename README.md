@@ -11,7 +11,7 @@ The DeepHeartSeg repository is structured as follows:
 
 Additional details on the content of the subdirectories and their structure can be found in the markdown files stored in the former.
 
-## Miniconda Set-up
+## Max's Miniconda Set-up
 ### DeepHeartSeg Setup with Miniconda
 
 This guide walks you through setting up the DeepHeartSeg environment using Miniconda.
@@ -22,17 +22,17 @@ This guide walks you through setting up the DeepHeartSeg environment using Minic
 
 ### Steps
 
-### 1. Create a Conda Environment
 Open a terminal and create a new conda environment named `deepheartseg` with Python 2.7:
 
+Ensure you are operating within the appropriate working directory.
+
 ```
-conda create -n deepheartseg python=2.7
-conda activate deepheartseg
-conda install pip
-pip install -r requirements.txt
+conda env create -f environment.yml
+
 ```
 
-## Set-up
+
+## Original Recommended Set-up
 
 This code was developed and tested using Python 2.7.17.
 
